@@ -1,5 +1,4 @@
 // Identify processes executing credential theft activity, LaZagne is usually the tool of choice
-
 DeviceProcessEvents 
 | where FileName =~ 'reg.exe'
 | where ProcessCommandLine has_all('save','hklm','sam')

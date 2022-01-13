@@ -1,6 +1,5 @@
 // Identify spoofed emails that contain certain keywords in the Subject
 // The emails are also checked for a link to a Google Docs document, which is commonly used in phishing attacks
-
 let SubjectTerms = pack_array('onus','equired','all','urvey','eb', 'eport','you','nation','me','itting','book','ocument','ill'); 
 EmailEvents 
 | where EmailDirection == "Inbound" 

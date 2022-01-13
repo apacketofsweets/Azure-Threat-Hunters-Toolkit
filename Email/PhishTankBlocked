@@ -1,0 +1,7 @@
+// Identify blocked emails classed as phishing by PhishTank
+
+let phishtank = externaldata (phish_id: string, url:string) ["https://data.phishtank.com/data/online-valid.csv"] with (ignoreFirstRecord=true);
+EmailUrlInfo
+| where Url in~(phishtank) 
+| join EmailEvents on NetworkMessageId 
+| where DeliveryAction != "Blocked"

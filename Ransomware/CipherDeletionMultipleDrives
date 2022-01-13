@@ -1,6 +1,5 @@
 // Identify attempts to delete data on multiple drives using cipher.exe
 // This is commonly performed by ransomware to prevent data recovery after encryption
-
 DeviceProcessEvents
 | where Timestamp > ago(1d)
 | where FileName =~ "cipher.exe" 

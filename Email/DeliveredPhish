@@ -1,5 +1,4 @@
 // Identify delivered incoming emails categorised by 365 Defender as Phishing or Malware with a high confidence 
-
 EmailEvents
 | where ThreatTypes in ('Phish', 'Malware')
 | where EmailAction !in ('Replace attachment', 'Send to quarantine')

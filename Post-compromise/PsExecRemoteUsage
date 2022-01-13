@@ -1,5 +1,4 @@
 // Identifies alerts related to file drop and remote execution activity where the file name matches PsExec and similar tools used for distribution
-
 AlertInfo
 | where Title == "File dropped and launched from remote location"
 | join AlertEvidence on $left.AlertId == $right.AlertId

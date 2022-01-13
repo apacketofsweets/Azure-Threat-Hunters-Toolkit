@@ -1,4 +1,3 @@
 // Identify emails with JNLP files as attachments, this file type is often used to deliver malware
-
 EmailAttachmentInfo
 | where FileName endswith ".jnlp"

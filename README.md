@@ -1,4 +1,4 @@
-# Azure Threat Hunting Playbook
+# Azure Threat Hunter's Toolkit
 
 This repository contains a number of resources for use in performing proactive Threat Hunting in Microsoft's Azure cloud hosting platform. These resources are primarily designed for use in the Microsoft Sentinel and 365 Defender, although the principles should also apply to other SIEM and Endpoint protection tools. 
 
@@ -22,3 +22,11 @@ The Sentinel and 365 Defender Advanced Hunting queries are written in Kusto Quer
 * [Networking](https://github.com/apacketofsweets/Azure-Threat-Hunting-Playbook/tree/main/Queries/Defender-365/Networking)
 * [Post-compromise](https://github.com/apacketofsweets/Azure-Threat-Hunting-Playbook/tree/main/Queries/Defender-365/Post-compromise)
 * [Ransomware](https://github.com/apacketofsweets/Azure-Threat-Hunting-Playbook/tree/main/Queries/Defender-365/Ransomware)
+
+## Playbooks
+
+* Coming soon
+* Coming soon
+* Coming soon
+* Coming soon
+* Coming soon

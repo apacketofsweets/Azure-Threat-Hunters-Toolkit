@@ -20,3 +20,10 @@ These queries are primarily designed for use in the Azure Sentinel and 365 Defen
 * [Networking](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Defender-365/Networking)
 * [Post-compromise](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Defender-365/Post-compromise)
 * [Ransomware](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Defender-365/Ransomware)
+
+### Attribution
+Queries in this repo are a mixture of self-written Kusto and code originally obtained from [reprise99](https://github.com/reprise99/Sentinel-Queries) and [lawndoc](https://github.com/lawndoc/AdvancedHuntingQueries).
+
+
+
+

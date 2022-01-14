@@ -1,7 +1,5 @@
-# Microsoft Defender 365 Advanced Hunting queries
+# Azure Threat Hunting Playbook
 
-This repository contains a series of Kusto Query Language (KQL) queries for use in Microsoft 365 Defender's Advanced Hunting function. These queries can be used to perform proactive threat hunts for common Cyber Security issues. Some require some customisation before use, there are comments next to variables that require customisation detailing what steps to take. 
+This repository contains a number of resources for use in performing proactive Threat Hunting in Microsoft's Azure cloud hosting platform. These resources are primarily designed for use in the Microsoft Sentinel and 365 Defender, although the principles should also apply to other SIEM and Endpoint protection tools. 
 
-While these searches were designed for 365 Defender Advanced Hunting, as these are written in KQL they should act as a good starting point for creating custom queries in Microsoft Defender Advanced Threat Protection and Microsoft Sentinel Log Analytics.
-
-For more information on using Defender 365 Advanced Hunting and performing custom queries, see [this overview](https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide) on the Microsoft website.
+The Sentinel and 365 Defender Advanced Hunting queries are written in Kusto Query Language (KQL), meaning they should be able to run in other tools that accept KQL with minimal changes required to them - this would probably be the most useful in Microsoft Advanced Threat Protection. These queries can be used to perform proactive threat hunts for common Cyber Security issues. Some require some customisation before use, there are comments next to variables that require customisation detailing what steps to take. 

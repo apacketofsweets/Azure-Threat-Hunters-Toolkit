@@ -2,7 +2,7 @@
 
 This repository is a collection of custom Kusto Query Language (KQL) queries for use in performing proactive threat hunts for cyber security issues in Microsoft's Azure cloud hosting platform. Some require some customisation before use, there are comments next to variables that require customisation detailing what steps to take. 
 
-These queries are primarily designed for use in the Microsoft Sentinel and 365 Defender, although they could also form the basis of queries for use in other tools that accept KQL like Microsoft Advanced Threat Protection (ATP).
+These queries are primarily designed for use in the Azure Sentinel and 365 Defender, although they could also form the basis of queries for use in other tools that accept KQL like Microsoft Advanced Threat Protection (ATP).
 
 ### Microsoft Sentinel queries
 * [General](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/General)

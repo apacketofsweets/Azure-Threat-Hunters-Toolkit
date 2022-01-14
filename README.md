@@ -9,11 +9,11 @@ These queries are primarily designed for use in the Microsoft Sentinel and 365 D
 * [Active Directory](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Azure-Active-Directory)
 * [Azure Active Directory](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Azure-Active-Directory)
 * [Azure Bastion](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Azure-Bastion)
-* [Azure Key Vault](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Queries/Azure-Key-Vault)
+* [Azure Key Vault](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Azure-Key-Vault)
 * [Azure Monitor](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkitk/tree/main/Sentinel/Azure-Monitor)
 * [Defender for Endpoint](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Defender-for-Endpoint)
 * [Defender for Identity](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Defender-for-Identity)
-* [Office 365](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Office-0365)
+* [Office 365](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Sentinel/Office-365)
 
 ### Defender 365 Advanced Hunting queries
 * [Email](https://github.com/apacketofsweets/Azure-Threat-Hunters-Toolkit/tree/main/Defender-365/Email)
